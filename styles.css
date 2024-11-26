@@ -1,0 +1,440 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* nav bar */
+nav {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav .bars {
+    display: none;
+}
+
+.bars i {
+    font-size: 29px;
+}
+
+nav .logo {
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 500px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+nav .nav-links li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+/* header */
+header {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+header button {
+    width: 15rem;
+    height: 3rem;
+    background-color: #f57c00;
+    color: white;
+    /* padding: 0.5rem 1rem; */
+    border-style: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+/* common */
+hr{
+    width: 25%;
+    margin-left: 37.5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.services, .team, .skills, .portfolio, .testimonials, .contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.service-cards, .team-members, .skill-bars, .projects, .testimonials-content {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card, .member, .skill, .testimonial {
+    display: inline-block;
+    /* background: white; */
+    padding: 1rem;
+    border-radius: 8px;
+    width: 22%;  /* Default width for desktop view */
+    margin: 1%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.member img, .testimonial img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+/* Services Section */
+.services {
+    background-color: #00acc1;
+    color: white;
+}
+
+.card img {
+    width: 90px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+}
+
+/* Team Section  */
+.team{
+    background-color: rgb(221, 221, 221);
+}
+
+.team h4{
+    color: #00acc1;
+    margin: 10px;
+}
+
+.icon{
+    margin-top: 10%;
+}
+
+.icon span{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(88, 88, 88);
+    padding: 5%;
+}
+
+.icon span i{
+    color: white;
+}
+
+/* skill section  */
+.skill {
+    position: relative;
+}
+
+.skill .percentage {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.skills {
+    background-color: #ffeb3b;
+}
+
+/* Portfolio Section */
+.project {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 45%;  /* Default width for desktop view */
+    margin: 1%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.project img{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio {
+    background-color: #ffd54f;
+}
+
+.portfolio button{
+    width: 20rem;
+    height: 3rem;
+    background-color: #00a98d;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #ec407a;
+    color: white;
+}
+
+.testimonial p{
+    margin-bottom: 25px;
+}
+
+.testimonial h3{
+    margin-bottom: 10px;
+}
+
+.testimonial h4{
+    color: #c0db10;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #1976d2;
+    color: white;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.contact input {
+    display: inline;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 49.7%;
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #1258b9;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.contact textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #1258b9;
+    color: white;
+}
+
+.contact button {
+    background-color: #f57c00;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+footer {
+    background-color: #1258b9;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer ul{
+    display: inline-block;
+}
+
+footer li {
+    display: inline;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+
+@media (min-width: 1025px) {
+    nav .logo{
+        margin-right: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    nav .logo{
+        margin-right: 40%;
+    }
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+    nav .logo {
+        margin-right: 30%;
+    }
+    .card, .member, .project, .testimonial {
+        width: 45%;  /* Two items per row */
+        margin: 2%; 
+    }
+
+    .portfolio{
+        padding: 0;
+    }
+
+    .project img{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 0.5rem;
+    }
+
+    .portfolio button{
+        width: 14rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .skill {
+        display: block;
+        width: 90%; /* Full width for each skill bar */
+        margin: 1rem auto;
+    }
+
+    header {
+        padding: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header button {
+        padding: 0.4rem 0.8rem;
+        font-size: 1rem;
+    }
+
+    .contact form {
+        padding: 1rem;
+    }
+
+    .contact input {
+        width: 49.5%;
+    }
+}
+
+@media (max-width: 611px) {
+    nav .logo {
+        margin-right: 15%;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+    nav .bars{
+        display: inline-block;
+        margin-right: 40%;
+    }
+    nav .nav-links {
+        display: none;
+    }
+
+    nav .logo{
+        margin: 0;
+    }
+
+    header button {
+        width: 10rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        border-radius: 10px;
+    }
+
+    .card, .member, .project, .testimonial {
+        display: block;
+        width: 90%;  /* Full width for each item */
+        margin: 1rem auto;  /* Centered with margin */
+    }
+
+    .card img {
+        width: 70px;
+        height: 80px;
+    }
+
+    .project img{
+        width: 250px;
+        height: 170px;
+        margin-bottom: 0.5rem;
+    }
+
+    .portfolio button{
+        width: 12rem;
+        height: 2rem;
+        font-size: .8rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    header button {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .contact form {
+        padding: 1rem;
+    }
+
+    .contact button {
+        padding: 0.6rem 0.8rem;
+        font-size: 1rem;
+    }
+
+    .member img, .testimonial img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact input {
+        width: 100%;
+    }
+}
